@@ -63,6 +63,7 @@ require (
 	go.uber.org/zap v1.13.0
 	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59
 	golang.org/x/net v0.0.0-20200222125558-5a598a2470a0
+	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 	google.golang.org/genproto v0.0.0-20191216164720-4f79533eabd1
 	google.golang.org/grpc v1.26.0
@@ -70,3 +71,5 @@ require (
 	gopkg.in/telegram-bot-api.v4 v4.6.4
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
+
+replace github.com/micro/cli/v2 v2.1.2 => github.com/urfave/cli/v2 v2.1.1
